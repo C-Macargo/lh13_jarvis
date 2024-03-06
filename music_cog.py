@@ -7,7 +7,6 @@ class MusicCog(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
         self._last_member = None
-        print("LH13_DJ is online")
 
     @commands.command(name='play')
     async def play(self, ctx, *, url: str):
